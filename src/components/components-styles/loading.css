@@ -1,0 +1,84 @@
+
+.loading-cell{
+  /* LoadingCell */
+  position: absolute;
+  width: 350px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.loading-indicator{
+  /* LoadingIndicator */
+
+  position: absolute;
+  width: 97px;
+  left: calc(50% - 97px/2 + 0.5px);
+  top: 28.57%;
+  bottom: 28.57%;
+
+}
+
+.h2-low-emphasis{
+  /* H2 Low Emphasis */
+
+  position: absolute;
+  left: 32.99%;
+  right: 0%;
+  top: 8.33%;
+  bottom: 8.33%;
+}
+
+
+.loading-text{
+  /* Loading */
+
+  position: absolute;
+  left: 0%;
+  right: 1.54%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Header */
+
+  font-family: System;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+
+  /* Text/Light */
+
+  color: #828282;
+}
+
+
+.icon-system-spinner{
+  /* icons/system/spinner
+
+  System
+  Spinner
+  */
+
+  position: absolute;
+  left: 0%;
+  right: 75.26%;
+  top: 0%;
+  bottom: 0%;
+}
+
+
+.activity-indicator{
+  /* Activity Indicator */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
