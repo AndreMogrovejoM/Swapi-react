@@ -1,8 +1,9 @@
+
 .register-box{
-  /* Rectangle 1 */
+  /* Register box */
   position: absolute;
   width: 350px;
-  height: 848px;
+  height: 100%;
   left: 0px;
   top: 52px;
   background: #FFFFFF;

@@ -1,6 +1,8 @@
 import React from 'react'
 import './components-styles/error.css'
 
+/*Stylized error component*/
+
 function Error(){
   return (
     <>

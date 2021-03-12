@@ -3,7 +3,7 @@ import './components-styles/header.css'
 function Header(){
   return (
     <div className="App">
-    <header className="header">
+    <header className="my-header">
         <div className="title">
            Ravn Star Wars Registry
         </div>

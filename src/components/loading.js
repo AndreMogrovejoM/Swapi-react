@@ -1,6 +1,8 @@
 import React from 'react'
 import './components-styles/loading.css'
 
+/*Stylized loading component*/
+
 function Loading(){
   return (
     <>

@@ -1,0 +1,83 @@
+.person-cell{
+  /* PersonCell */
+
+  position: absolute;
+  width: 349px;
+  height: 69px;
+  left: 0px;
+  top: 0px;
+  box-shadow: none;
+
+}
+
+.p1-low-emphasis{
+  /* P1 Low Emphasis */
+
+  position: absolute;
+  left: 4.27%;
+  right: 30.13%;
+  top: 52.17%;
+  bottom: 23.19%;
+
+}
+
+.h2{
+  /* H2 Default */
+
+  position: absolute;
+  left: 4.27%;
+  right: 30.13%;
+  top: 23.19%;
+  bottom: 47.83%;
+
+}
+
+.person-description{
+  /* Human from Tatooine */
+
+  position: absolute;
+  left: 0%;
+  right: 43.65%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Paragraph */
+
+  font-family: System;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0125em;
+
+  /* Text/Light */
+
+  color: #828282;
+}
+
+.line1{
+  /* Line 1 */
+
+  position: absolute;
+  height: 0px;
+  left: 16px;
+  right: 0px;
+  bottom: 0px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.keyword-arrow{
+  /* keyboard_arrow_right-24px 1 */
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 6px;
+  top: calc(10% - 28px/2 + 1.5px);
+}
