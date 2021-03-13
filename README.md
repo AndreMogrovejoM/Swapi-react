@@ -52,10 +52,10 @@ Execute `npm start` to run the web app at `http://localhost:3000/`.
 ## Application's view
 
 ### Loading data screen
-![Loading Dada screen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo.git/blob/main/captures/loading.png)
+![Loading Dada screen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo/blob/main/captures/loading.png)
 ### Error screen
-![Error screen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo.git/blob/main/captures/error.JPG)
+![Error screen](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo/blob/main/captures/error.JPG)
 ### List of Characters
-![List of Characters](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo.git/blob/main/captures/all_people_loaded.JPG)
+![List of Characters](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo/blob/main/captures/all_people_loaded.JPG)
 ### Character details
-![Characters details](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo.git/blob/main/captures/show_people_details.JPG)
+![Characters details](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo/blob/main/captures/show_people_details.JPG)
