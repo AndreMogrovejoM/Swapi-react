@@ -10,12 +10,8 @@ function App() {
 
   return (
     <>
-
-      <Header />
-      <div className= "register-box">
-        <Register />
-      </div>
-
+      <Header/>
+      <Register />
     </>
   );
 }
