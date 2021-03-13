@@ -14,7 +14,7 @@
 
   position: absolute;
   width: 97px;
-  left: calc(50% - 97px/2 + 0.5px);
+  left: 52px;
   top: 28.57%;
   bottom: 28.57%;
 
@@ -35,9 +35,8 @@
   /* Loading */
 
   position: absolute;
-  left: 0%;
-  right: 1.54%;
-  top: 0%;
+  left: 90%;
+  top: 100%;
   bottom: 0%;
 
   /* Header */
@@ -45,10 +44,10 @@
   font-family: System;
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 28px;
   line-height: 20px;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.0125em;
 
   /* Text/Light */
@@ -63,19 +62,17 @@
   System
   Spinner
   */
-
-  position: absolute;
   left: 0%;
   right: 75.26%;
   top: 0%;
   bottom: 0%;
+  padding-right: 60%;
 }
 
 
 .activity-indicator{
   /* Activity Indicator */
-
-  position: absolute;
+  padding-right: 60%;
   left: 0%;
   right: 0%;
   top: 0%;

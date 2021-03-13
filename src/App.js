@@ -3,9 +3,9 @@ import Header from './components/header.js';
 import Register from './components/register.js';
 import './components/components-styles/register.css'
 
-
+/*Invoke Header component*/
 /*Invoke Register box and data component*/
-/*Invoke header component*/
+
 function App() {
 
   return (

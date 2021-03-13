@@ -2,8 +2,8 @@ import React from "react";
 import "./components-styles/person-register.css";
 import { Grid, Card, Image } from "semantic-ui-react";
 import Loading from "./loading";
-function PersonRegister({ node, update,loading }) {
 
+function PersonRegister({ node, update,loading }) {
   return (
     <>
       <Grid.Row >
@@ -12,7 +12,7 @@ function PersonRegister({ node, update,loading }) {
         <Card
           className="person-cell"
           fluid={true}
-          onClick={() => {
+          onClick={() => {/*getting update to show detail info onClick*/
             update({
               eyeColor: node?.eyeColor,
               hairColor: node?.hairColor,

@@ -59,3 +59,6 @@ Execute `npm start` to run the web app at `http://localhost:3000/`.
 ![List of Characters](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo/blob/main/captures/all_people_loaded.JPG)
 ### Character details
 ![Characters details](https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo/blob/main/captures/show_people_details.JPG)
+
+## Comments
+The two contributors in this repository are me, I had a trouble with my accounts, [skdi](https://github.com/skdi) is my secondary account.

@@ -1,6 +1,6 @@
 import React from 'react'
 import './components-styles/loading.css'
-
+import LoadingIndicator from './loading-indicator'
 /*Stylized loading component*/
 
 function Loading(){
@@ -13,6 +13,7 @@ function Loading(){
           </div>
           <div className = "icon-system-spinner">
             <div className = "activity-indicator">
+              <LoadingIndicator />
             </div>
           </div>
         </div>

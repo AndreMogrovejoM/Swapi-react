@@ -1,5 +1,7 @@
 import React from 'react'
 import './components-styles/header.css'
+
+/*Main Header*/
 function Header(){
   return (
     <div className="App">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./components-styles/person-details.css";
 
+/*struct to show info stylized*/
 const DETAILS = ({ header, text }) => {
   return (
     <div className="info-content">
@@ -12,6 +13,7 @@ const DETAILS = ({ header, text }) => {
 };
 
 function PersonDetails({ details }) {
+  /*This conditional makes sure that info is sended by hooks on event Onclick*/
   if(details.eyeColor !== undefined) return (
     <>
       <div className="details-box">
@@ -26,7 +28,7 @@ function PersonDetails({ details }) {
             :
             <div className="title-details">No Vehicles Found </div>
         }
-        {
+        {   /*show all vehicles from register*/
             details.vehicleConnection.vehicles.map((vehicle) => (
                 <DETAILS key={vehicle.name} header={vehicle.name} text={''}/>
             ))
@@ -35,7 +37,7 @@ function PersonDetails({ details }) {
 
     </>
   );
-  else return (<div>HOLA</div>);
+  else return (<div></div>);
 }
 
 export default PersonDetails;
