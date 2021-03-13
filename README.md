@@ -24,10 +24,6 @@ Clone this repository
 ``` bash
 git clone https://github.com/Skdiy/Ravn-Challenge-V2-Andre-Mogrovejo.git
 ```
-Install npm
-``` bash
-npm install
-```
 
 Install npm
 ``` bash
