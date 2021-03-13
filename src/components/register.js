@@ -67,7 +67,6 @@ function Register(){
         }
         <button
           onClick ={() => {
-          const {endCursor} = data.allPeople.pageInfo.endCursor;
           fetchMore({
             variables: {cursor: data.allPeople.pageInfo.endCursor},
             updateQuery: (previousResult, { fetchMoreResult }) => {

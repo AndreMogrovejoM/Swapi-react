@@ -1,16 +1,28 @@
 import React from 'react'
 import './components-styles/person-register.css'
 import { Grid ,Card, Image } from 'semantic-ui-react'
-function PersonRegister({id, node, species, homeworld}){
-  //console.log({species});
-  //console.log({species}.map((species) => {species.id}));
+import PersonDetails from './person-details.js'
+import Error from './error.js'
+import {Link} from 'react-router-dom'
 
-  //console.log(species.map((specie) => specie.id));
-
-
+const Show = ({node}) => {
+    return (
+      <>
+        <PersonDetails key={node.id} {...node} />
+        <p> hola </p>
+      </>
+    );
+}
+function PersonRegister({node}){
+  var {Click} = false;
   return (
-    <Grid.Column key={id}>
-      <Card className = "person-cell" fluid = {true}>
+    <>
+    <Grid.Column key={node.id}>
+      <Card className = "person-cell" fluid = {true}
+        onClick = {() => {
+          Show({node})
+        }}
+      >
         <Card.Content>
           <Card.Header>{node.name}</Card.Header>
           <div className = "p1-low-emphasis">
@@ -27,8 +39,9 @@ function PersonRegister({id, node, species, homeworld}){
           />
         </Card.Content>
       </Card>
-
+      <PersonDetails key={node.id} {...node} />
     </Grid.Column>
+    </>
   );
 
 }
