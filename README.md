@@ -1,6 +1,6 @@
-# Ravn-Challenge-V2-Andre-Mogrovejo
+# Swapi-react
 
-Ravn GraphQL Code Challenge
+Swapi-react
 
 ## Description
 
